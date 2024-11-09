@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-10 bg-primary text-gray-800 ">
       <div className="max-w-2xl md:max-w-4xl lg:max-w-6xl mx-auto">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">
+        <h2 className="text-3xl font-semibold text-secondary mb-4 text-center">
           Project
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

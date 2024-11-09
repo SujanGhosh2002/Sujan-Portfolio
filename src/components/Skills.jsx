@@ -24,7 +24,7 @@ const Skills = () => {
 
   return (
     <div className=" py-12 px-4 text-center max-w-2xl md:max-w-4xl lg:max-w-6xl mx-auto ">
-      <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+      <h2 className="text-3xl font-semibold text-secondary mb-4">
         THINGS I KNOW
       </h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-10">

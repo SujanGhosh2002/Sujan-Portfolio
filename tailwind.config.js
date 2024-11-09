@@ -5,10 +5,13 @@ export default {
     extend: {
       colors: {
         primary: "#bdc3c7",
+        secondary: "#45505b",
+        ternary: "#0563bb",
       },
       boxShadow: {
         "sh-1": "10px 10px 15px #a8aeb1, -10px -10px 15px #d2d8dd",
         "sh-2": "inset 13px 13px 28px #9fa4a7, inset -13px -13px 28px #dbe2e7",
+        "sh-3": "inset -13px 13px 28px #9fa4a7, inset -13px -13px 28px #dbe2e7",
       },
       animation: {
         tada: "tada 1.5s ease infinite",

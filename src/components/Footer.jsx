@@ -16,12 +16,11 @@ const Footer = () => {
           <img
             src={"https://www.apdux.com/images/team/ApDux-Team-Sujan-Ghosh.jpg"}
             alt="Logo"
-            width={50}
           />
         </div>
         <div className="flex justify-around items-center space-x-4 sm:space-x-6">
           <div className="me-5">
-            <a href="/" className="text-gray-600 mr-3">
+            <a href="/" className="text-secondary mr-3">
               Sujan Ghosh
             </a>
           </div>

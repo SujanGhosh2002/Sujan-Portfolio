@@ -12,7 +12,7 @@ import {
 const Hero = () => {
   return (
     <section className="flex  items-center py-10 pt-28  px-4">
-      <div className="flex flex-row items-center justify-around text-gray-800 rounded-lg shadow-sh-1 p-8  gap-5 space-y-4 w-full max-w-2xl md:max-w-4xl lg:max-w-6xl mx-auto  md:space-y-0 md:space-x-8 md:p-12">
+      <div className="flex flex-row items-center justify-around text-gray-600 rounded-lg shadow-sh-1 p-8  gap-5 space-y-4 w-full max-w-2xl md:max-w-4xl lg:max-w-6xl mx-auto  md:space-y-0 md:space-x-8 md:p-12">
         <div className="flex flex-col gap-5">
           {/* Text Section */}
           <div className="flex flex-col items-center text-center md:items-start md:text-left gap-5">
@@ -20,9 +20,9 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl font-bold">Sujan Ghosh</h1>
 
             {/* Job Title */}
-            <p className="text-lg">
+            <p className="text-lg text-gray-500">
               I’m{" "}
-              <span className="text-blue-500">an React Native Developer</span>
+              <span className="text-ternary">an React Native Developer</span>
             </p>
           </div>
           {/* Social Icons */}

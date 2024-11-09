@@ -3,7 +3,7 @@ import React from "react";
 const Education = () => {
   return (
     <div id="education" className="bg-primary p-6">
-      <h2 className="text-3xl font-semibold text-gray-800 mb-4  text-center">
+      <h2 className="text-3xl font-semibold text-secondary mb-4  text-center">
         Education and Experience
       </h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-10  text-center">
@@ -13,18 +13,18 @@ const Education = () => {
         <div className="flex flex-col md:flex-row md:justify-between  space-y-8 md:space-y-0 md:space-x-12 lg:space-y-0 lg:space-x-52">
           {/* Professional Experience Section */}
           <div className="flex-1">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+            <h2 className="text-2xl font-semibold text-secondary mb-6">
               Professional Experience
             </h2>
             <div className="">
               {/* Experience Item */}
               <div className="flex">
                 <div className="w-8 flex flex-col items-center">
-                  <div className="w-4 aspect-square border-blue-600 bg-white border-2 rounded-full"></div>
-                  <div className="w-0.5 h-full bg-blue-600"></div>
+                  <div className="w-4 aspect-square border-ternary bg-gray-300 border-2 rounded-full"></div>
+                  <div className="w-0.5 h-full bg-ternary"></div>
                 </div>
                 <div className="ml-4 mb-5">
-                  <h3 className="text-xl font-bold text-blue-700">
+                  <h3 className="text-xl font-bold text-ternary">
                     React-Native Developer
                   </h3>
                   <p className="text-sm bg-gray-300 inline-block px-2 py-1 rounded-lg">
@@ -41,11 +41,11 @@ const Education = () => {
               {/* Experience Items */}
               <div className="flex">
                 <div className="w-8 flex flex-col items-center">
-                  <div className="w-4 aspect-square border-blue-600 bg-white border-2 rounded-full"></div>
-                  <div className="w-0.5 h-full bg-blue-600"></div>
+                  <div className="w-4 aspect-square border-ternary bg-gray-300 border-2 rounded-full"></div>
+                  <div className="w-0.5 h-full bg-ternary"></div>
                 </div>
                 <div className="ml-4 mb-5">
-                  <h3 className="text-xl font-bold text-blue-700">
+                  <h3 className="text-xl font-bold text-ternary">
                     React-Native Developer
                   </h3>
                   <p className="text-sm bg-gray-300 inline-block px-2 py-1 rounded-lg">
@@ -65,18 +65,18 @@ const Education = () => {
 
           {/* Education Section */}
           <div className="flex-1">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+            <h2 className="text-2xl font-semibold text-secondary mb-6">
               Education
             </h2>
             <div className="">
               {/*BSc Education Item */}
               <div className="flex">
                 <div className="w-8 flex flex-col items-center">
-                  <div className="w-4 aspect-square border-blue-600 bg-white border-2 rounded-full"></div>
-                  <div className="w-0.5 h-full bg-blue-600"></div>
+                  <div className="w-4 aspect-square border-ternary bg-gray-300 border-2 rounded-full"></div>
+                  <div className="w-0.5 h-full bg-ternary"></div>
                 </div>
                 <div className="ml-4 mb-5">
-                  <h3 className="text-xl font-bold text-blue-700">
+                  <h3 className="text-xl font-bold text-ternary">
                     MIDNAPORE COLLEGE (AUTONOMOUS)
                   </h3>
                   <p className="text-sm bg-gray-300 inline-block px-2 py-1 rounded-lg">
@@ -93,11 +93,11 @@ const Education = () => {
               {/* HS Education Items */}
               <div className="flex">
                 <div className="w-8 flex flex-col items-center">
-                  <div className="w-4 aspect-square border-blue-600 bg-white border-2 rounded-full"></div>
-                  <div className="w-0.5 h-full bg-blue-600"></div>
+                  <div className="w-4 aspect-square border-ternary bg-gray-300 border-2 rounded-full"></div>
+                  <div className="w-0.5 h-full bg-ternary"></div>
                 </div>
                 <div className="ml-4 mb-5">
-                  <h3 className="text-xl font-bold text-blue-700">
+                  <h3 className="text-xl font-bold text-ternary">
                     JARA HIGH SCHOOL
                   </h3>
                   <p className="text-sm bg-gray-300 inline-block px-2 py-1 rounded-lg">
